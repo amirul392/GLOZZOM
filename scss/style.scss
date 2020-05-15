@@ -1,0 +1,363 @@
+
+/* home page */
+    .navbar-brand {
+        font-size: 2rem;
+        padding: 0px;
+        margin: 0px;
+        font-weight: bolder;
+    }
+
+
+.navbar {
+    background: #000;
+}
+.navbar li {
+    padding-left: 1em;
+}
+
+#showcase {
+    color: white;
+    margin-top: 55px;
+    .container {
+        margin-top: 100px;
+    }
+}
+
+#showcaseIcon {
+    .row {
+        .col-lg-4 {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+}
+
+.carousel-img-1 {
+    min-height: 500px;
+    background: url("../img/img-1.jpeg");
+    background-size: cover;
+}
+.carousel-img-2 {
+    min-height: 500px;
+    background: url("../img/img-2.jpg");
+    background-size: cover;
+}
+.carousel-img-3 {
+    min-height: 500px;
+    background: url("../img/img-3.jpg");
+    background-size: cover;
+}
+.carousel-img-4 {
+    min-height: 500px;
+    background: url("../img/img-4.jpg");
+    background-size: cover;
+}
+.carousel-img-5 {
+    min-height: 500px;
+    background: url("../img/img-5.jpg");
+    background-size: cover;
+}
+
+#getStarted {
+    background: url("../img/bg1.jpeg") no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+    .dark-overlay {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: rgba(0, 0, 0, 0.4);
+    }
+}
+
+#gellary-section {
+
+
+
+
+    img {
+        height: 250px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+}
+
+#copyright {
+    background: rgba(0,0,0,1);
+}
+
+#home-info {
+    #info-img {
+        border-radius: 5px;
+    }
+}
+
+/*home page end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*about page start */
+
+.page-header {
+    background: url('../img/img-1.jpeg') no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 350px;;
+    margin-top: 55px;
+    padding-bottom: 60px;
+    h2{
+        padding-top: 60px;
+    }
+}
+
+#testimonial-section {
+    background : url('../img/testimonial-background.jpg') no-repeat top center;
+    background-size: cover;
+    height: 400px;
+    .dark-overlay {
+        background: rgba(0,0,0,0.3);
+        height: 400px;
+        padding-top: 70px;
+        h2 {
+            padding-bottom: 30px;
+        }
+    }
+}
+
+/*about page end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Service pade*/
+#service-header {
+    background: url('../img/Service-background.jpg') no-repeat top center;
+    color: white;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    .dark-overlay {
+        background: rgba(0, 0, 0, 0.4);
+        padding-top: 50px;
+        height: 500px;
+    }
+}
+
+#Service-plane {
+    .card {
+        margin-top: 30px;
+    }
+    .card:hover .card-body{
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+}
+
+#accordion {
+    background: #343A40;
+    .card{
+        margin-top: 10px;
+    }
+}
+
+
+/*Service pade end*/
+
+
+
+
+
+
+
+
+
+/*blog page */
+#blog-header {
+    background: url('../img/testimonial-background.jpg') no-repeat top center;
+    color: white;
+    height: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    .dark-overlay {
+        background: rgba(0, 0, 0, 0.2);
+        height: 450px;
+    }
+}
+#blog {
+    img{
+        height: 250px;
+    }
+    .card{
+        margin-top: 20px;
+    }
+}
+/*blog page end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact page Start */
+#contact-header {
+    background: url('../img/contact-us-background.jpg') no-repeat top center;
+    color: white;
+    height: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    .dark-overlay {
+        background: rgba(0, 0, 0, 0.2);
+        height: 450px;
+    }
+}
+
+#contact-text{
+    p{
+        color: rgba(0,0,0,0.5);
+    }
+}
+
+
+/*contact page End */
+
+
+
+@media (max-width: 768px) {
+    #showcase {
+        .carousel-item {
+            min-height: 400px;
+            .container {
+                padding-left: 60px;
+                padding-right: 60px;
+                margin-top: 50px;
+            }
+        }
+    }
+
+    .row {
+        .col-lg-4 {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    .dark-overlay {
+        h3 {
+            font-size: 2rem;
+        }
+    }
+
+    #home-video {
+        h3{
+            font-size: 2.5rem;
+        }
+    }
+
+    #testimonial-section {
+        .container{
+            width: 90%;
+        }
+        h2 {
+            font-size: 2.5rem;
+            padding-top: 0px;
+        }
+        p {
+            padding: 0px;
+            font-size: 0.8rem;
+        }
+        
+        
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    #showcase {
+        .carousel-item {
+            min-height: 350px;
+
+            h2 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 0.8rem;
+            }
+            .container {
+                padding-left: 60px;
+                padding-right: 60px;
+                margin-top: 50px;
+            }
+        }
+    }
+    #home-video {
+        h3{
+            font-size: 2rem;
+        }
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .carousel-item {
+        min-height: 400px;
+        .container {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+    }
+    .dark-overlay {
+        h3 {
+            font-size: 3rem;
+        }
+    }
+
+
+}
